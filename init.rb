@@ -1,6 +1,6 @@
 require 'user_hooks'
 
-Redmine::Plugin.registor :redmine_new_user_actions do
+Redmine::Plugin.register :redmine_new_user_actions do
   name 'Redmine New User Actions'
   author 'gabriel.pettier@alterway.fr'
   description 'Bind actions to new users creation'
