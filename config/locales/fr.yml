@@ -1,0 +1,3 @@
+fr:
+  new_user_actions_add_to_projects: "Ajouter aux projets"
+  new_user_actions_add_to_projects_help: "Utiliser le format 'Nom project : nom role' sur chaque ligne"
