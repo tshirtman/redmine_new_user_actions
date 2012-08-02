@@ -1,0 +1,10 @@
+<div>
+  <div class="box tabular">
+    <p><%= label_tag('settings[add_to_projects', l(:new_user_actions_add_to_projects))%>
+    <%= text_area_tag('settings[add_to_projects]', @settings['add_to_projects'], {
+    :cols => 10,
+    :rows => 10,
+    :size => 2000}) %>
+    </p>
+  </div>
+</div>
